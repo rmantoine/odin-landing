@@ -86,7 +86,9 @@ h2 {
 }
 
 .banimg{
-background-color: gray;
+background-image: url(./images/banner.jpg);
+background-position: center;
+border-radius: 14px;
 justify-content: center;
 align-items: center;
 height: 200px;
@@ -136,10 +138,43 @@ padding-bottom: 50px;
 .mini{
     height: 162px;
     width: 162px;
-    border: 3px solid blue;
+    border: 3px solid rgb(235, 235, 235);
     border-radius: 8px;
-    margin:0 10px;
+    margin:10px 10px;
+    
 }
+
+.banana{
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/banana.png);
+    background-size: cover;
+    }
+    
+
+.burger{
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/burger.png);
+    background-size: cover;
+    }
+
+.apple{
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/apples.png);
+    background-size: cover;
+
+    }
+
+    
+.brocc{
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/brocc.png);
+    background-size: cover;
+    }
+
 .card{
     display: flex;
     flex-direction: column;
